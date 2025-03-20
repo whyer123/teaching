@@ -1,0 +1,17 @@
+file1.txt 300
+file2.txt 400
+file3.txt 100
+file4.log 150
+file5.log 250
+file6.jpg 1024
+file7.jpg 512
+image1.bmp 800
+image2.bmp 1200
+image3.bmp 512
+video1.mp4 1048576
+video2.mov 524288
+audio1.wav 40960
+audio2.mp3 20480
+config.ini 5
+style.css 20
+index.html 25

@@ -1,0 +1,10 @@
+file1.txt 120
+file2.log ABC      # 錯誤：檔案大小不是數字
+file3.jpg 2048
+file4.txt          # 錯誤：缺少檔案大小
+file5.log -1024    # 錯誤：檔案大小為負數
+file6.jpg 512
+file7.docx 400
+file8               # 錯誤：缺少檔案大小和副檔名
+file9.png 2048
+file10.bmp 512

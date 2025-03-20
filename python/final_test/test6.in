@@ -1,0 +1,14 @@
+file1.txt 120
+log1.log 350
+photo.jpg 2048
+spreadsheet.xlsx 850
+file3.jpg ABC      # 錯誤：檔案大小不是數字
+file4.txt          # 錯誤：缺少檔案大小
+presentation.pptx 1024
+file7.docx 400
+file8               # 錯誤：缺少檔案大小和副檔名
+file9.png 2048`
+video1.mp4 1048576
+database.sql -5120  # 錯誤：檔案大小為負數
+readme.md 15
+archive.zip 20480
