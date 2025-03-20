@@ -1,0 +1,35 @@
+# 1️⃣ 編譯產生的二進制檔案
+*.o
+*.out
+a.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 2️⃣ C/C++ 產生的暫存檔案
+*.swp
+*.swo
+*.swn
+*.bak
+*.log
+
+# 3️⃣ Python 虛擬環境 & 編譯結果
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# 4️⃣ macOS 產生的系統檔案
+.DS_Store
+
+# 5️⃣ VSCode 相關檔案
+.vscode/
+
+# 6️⃣ Git 內部衝突檔案
+*.orig
+*.rej
+
+# 7️⃣ 其他你不想提交的特定檔案
+secret_config.json
