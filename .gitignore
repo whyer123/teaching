@@ -33,3 +33,4 @@ env/
 
 # 7️⃣ 其他你不想提交的特定檔案
 secret_config.json
+*.zip
