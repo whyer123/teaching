@@ -3,14 +3,14 @@
 void funcA();
 void funcB();
 
-void funcA() {
-    printf("This is funcA\n");
-    funcB();  
-}
-
 void funcB() {
     printf("This is funcB\n");
     funcA();  
+}
+
+void funcA() {
+    printf("This is funcA\n");
+    funcB();  
 }
 
 int main() {
