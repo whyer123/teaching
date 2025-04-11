@@ -12,7 +12,7 @@ int main() {
 
     while (k < SIZE) {
         int r = rand() % 49 + 1; 
-        int dup = 0;            
+        int dup = 0;           
         
         for (int i = 0; i < k; i++) {
             if (r == a[i]) {

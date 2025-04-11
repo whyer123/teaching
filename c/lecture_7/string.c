@@ -2,11 +2,12 @@
 
 int main() {
 
-    char name[5] = {1,1,1,1,1};
+    // Alice
 
+    char name[10] = {1,1,1,1,1}; 
     printf("Enter your name: ");
-    // scanf("%s", name);
-    fgets( name , 10 , stdin );
+    // scanf("%4s", name); //不加入&
+    fgets( name , 9 , stdin );
 
     printf("Your name: %s\n", name);
 
