@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-void add_value( int n ) {
+int add_value( int n ) {
     n = n + 1;
+    return n;
 }
 
 int main() {
@@ -9,9 +10,11 @@ int main() {
     int c = 1;
     printf("c=%d\n", c);
 
-    add_value(c);
+    int d = 0;
 
-    printf("c=%d\n", c);
+    d = add_value(c);
+
+    printf("d=%d\n", d);
 
     return 0;
 }

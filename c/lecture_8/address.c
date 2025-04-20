@@ -9,7 +9,7 @@ int main() {
     printf("1: number's address:%p\n chr's address:%p\n", &number, &chr);
 
 
-    int *p_number = NULL;
+    int *p_number = NULL; //Pnumber, P_number
     p_number = &number;
     
     char *p_chr = NULL;
