@@ -1,0 +1,7 @@
+ch_6 p32
+ch_6 p50
+ch_7 p28
+ch_7 p30
+ch_8 p11
+ch_8 p12
+ch_8 p27
