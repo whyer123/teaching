@@ -1,20 +1,26 @@
 #include <stdio.h>
+#include <ctype.h>
 
-int three_parts(int A[], int size) {
+// int three_parts(int A[], int size) {
 
-}
+// }
+
+// int three_parts(int A[][3], int size ) {
+
+// }
 
 int main() {
 
-    int A[] = {0,2,1,-6,6,-7,9,1,2,0,1};
-    int size = 11;
+    char c1='a';
+    char c2='A';
 
+    printf("%d %d\n", c1, c2);
 
-    if( three_parts( A , size ) ) {
-        printf("成功\n");
-    } else {
-        printf("失敗\n");
-    }
+    char c3 = 'b';
+    // c3 = c3 - 32;
+    toupper(c3);
+
+    printf("%c\n", toupper(c3));
 
 
     return 0;
