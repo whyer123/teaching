@@ -14,22 +14,24 @@ int main() {
 
     char *token = NULL;
 
-    token = strtok( input , " ");
+    token = strtok( input , " ()-");
 
     int i=0;
 
     while (token != NULL) {
 
-        a[i] = atoi(token);
-        token = strtok( NULL , " " );
+        printf("%s\n", token);
+
+        // a[i] = atoi(token);
+        token = strtok( NULL , " ()-" );
         i++;
         
     }
 
-    for( int j=0 ; j<i ; j++ ) {
-        printf("%d ", a[j]);
-    }
-    printf("\n");
+    // for( int j=0 ; j<i ; j++ ) {
+    //     printf("%d ", a[j]);
+    // }
+    // printf("\n");
 
     return 0;
 }

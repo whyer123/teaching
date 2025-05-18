@@ -3,15 +3,9 @@
 
 int my_fun( int high , int low , int ans[10] ) {
 
-    int ans=0;
+    int a=3;
 
-    for( int i=low ; i<=high ; i++ ) {
-
-        
-        // 123
-        // 3 12
-        // 2 1
-    }
+    a = a + 48;
 
     return ans;
 }
