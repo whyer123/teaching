@@ -13,6 +13,8 @@ void computeAverage(Student* s, int count) {
     }
 }
 
+
+
 int main() {
     int n;
     printf("輸入學生人數: ");
